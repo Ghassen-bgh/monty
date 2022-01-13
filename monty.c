@@ -55,8 +55,8 @@ void process(void)
 	ssize_t read;
 	size_t len = 0;
 	char *opcode;
-	read = getline(&globv.line, &len, globv.file);
-	while (read != -1)
+
+	while ((read = getline(&globv.line, &len, globv.file)) != -1)
 	{
 		globv.lineNum++;
 
