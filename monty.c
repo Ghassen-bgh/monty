@@ -85,6 +85,7 @@ void runopcode(char *opcode, unsigned int lineNum)
 		{"pint",pint},
 		{"pop",pop},
 		{"swap",swap},
+		{"add",add},
 		{NULL, NULL}
 	};
 

@@ -71,5 +71,7 @@ void pall(stack_t **stack, unsigned int lineNum);
 void pint(stack_t **stack, unsigned int lineNum);
 void pop(stack_t **stack, unsigned int lineNum);
 void swap(stack_t **stack, unsigned int l);
+
+void add(stack_t **stack, unsigned int l);
 #endif
 
